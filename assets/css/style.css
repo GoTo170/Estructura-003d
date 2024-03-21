@@ -17,7 +17,24 @@ header h1{
 }
 
 nav ul{
-    text-transform: uppercase;
-    color: blueviolet;
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    background-color: bisque;
+    max-width: 30%;
+    border-radius: .3rem;
+    margin-top: 0.1%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
 }
+
+nav ul li{
+    color:brown;
+    align-items: center;
+}
+
+@media (min-width:399px) and (max-width:686px)
+    nav ul{
+
+    }
